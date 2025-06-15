@@ -1,0 +1,11 @@
+name: Workflow
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - name: Print Start
+        run: echo Start...
+      - name: Print Start
+        run: echo End.
